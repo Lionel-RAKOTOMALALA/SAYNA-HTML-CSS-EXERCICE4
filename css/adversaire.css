@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 /* font  */
 @font-face {
-  font-family: 'lionel';
+  font-family: 'spidy';
   src: url(../far_from_homecoming/Updated.otf);
 }
 :root{
@@ -72,13 +72,13 @@ text-decoration: none;
 padding-inline: 40px;
     color: #fff;
 }
-nav .supervilain{
+nav .vilain{
     background-size: cover;
     background-attachment: fixed;
     background-position: 100%;
 }
 h2{
-    font-family: 'lionel'; 
+    font-family: 'spidy'; 
 }
 header {
   width: 100%;
@@ -94,7 +94,7 @@ header {
     text-align: center;
   }
   .titre h1 {
-    font-family: 'lionel';
+    font-family: 'spidy';
     font-size: 80px;
   }
   .titre p {
@@ -102,27 +102,27 @@ header {
   }
   
   /* SECTION jaune  */
-  section.jaune {
+  section.section-yellow {
     background: var(--yellow);
     padding: 20px 15px;
   }
-  section .line {
+  section .ligne {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 15px;
     width: 100%;
   }
-  .line .img-txt {
+  .ligne .text-image {
     overflow: hidden;
     width: 200px;
   margin: 10px 90px;
   }
-  .line .image {
+  .ligne .image {
     position: relative;
     top: 5px;
   }
-  .line .text {
+  .ligne .text {
     width: 100%;
     inline-size: 160px;
     word-spacing: 3px;
@@ -159,13 +159,13 @@ header {
     text-align: center;
     margin-left: -5%;
   }
-  footer .footer-nav {
+  footer .nav-foot {
     order: 1;
   } 
-  footer .footer-nav-item {
+  footer .footer-nav-block {
     display: none;
   }
-  footer #lg {
+  footer #langue {
     order: 2;
   }
   footer .container a {
@@ -173,7 +173,7 @@ header {
     text-decoration: none;
     color: var(--white);
   }
-  footer .footer-nav a {
+  footer .nav-foot a {
     margin-left: 17px;
     text-decoration: none;
     color: var(--white);
@@ -212,7 +212,7 @@ header {
       flex-direction: column;
       text-align: start;
     }
-    footer .footer-nav-item {
+    footer .footer-nav-block {
       display: none;
       float: left;
     }
@@ -220,7 +220,7 @@ header {
       display: flex;
       flex-direction: column;
     }
-    footer .footer-nav-item a {
+    footer .footer-nav-block a {
       display: flex;
       flex-direction: column;
       text-align: start;
@@ -250,7 +250,7 @@ header {
     nav,
     header,
     main,
-    section.jaune,
+    section.section-yellow,
     footer {
       min-width: 600px;
       text-align: center;
@@ -266,7 +266,7 @@ header {
       text-align: start;
       padding-left: 30px;
     }
-    footer .footer-div-none{
+    footer .footer-none{
       display: none;
     }
     footer .li {
@@ -274,7 +274,7 @@ header {
       justify-content: space-between;
       align-items: flex-start;
     }
-    footer #lg {
+    footer #langue {
       margin: -35% 5% auto 50%;
       order: 1;
     }

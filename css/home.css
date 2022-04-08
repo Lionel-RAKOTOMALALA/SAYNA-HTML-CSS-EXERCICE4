@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 /* font  */
 @font-face {
-  font-family: 'lionel';
+  font-family: 'spidy';
   src: url(../far_from_homecoming/Updated.otf);
 }
 /* Selecteur UNIVESELLE  */
@@ -37,19 +37,19 @@ nav {
   align-items: center;
   justify-content: space-between;
 }
-.logo {
+.logos {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.logo img {
+.logos img {
   margin: 0 10px;
 }
-.liste {
+.listes {
   display: flex;
   list-style-type: none;
 }
-.liste a {
+.listes a {
   text-decoration: none;
   color: var(--white);
   margin: 0 10px;
@@ -67,17 +67,17 @@ header {
   padding: 80px;
 }
 header h1 {
-  font-family: 'lionel';
+  font-family: 'spidy';
   color: var(--white);
   font-size: 8vw;
 }
-.prim{
+.nav-list{
   margin-top: 150px;
 }
-.hero-btn {
+.btn-1{
   margin: 22px 0;
 }
-.boutton button {
+.btn button {
   padding: 12px 25px;
   border: none;
   border-radius: 10px;
@@ -85,19 +85,19 @@ header h1 {
   font-weight: 600;
   margin-right: 20px;
 }
-#adv-btn{
+#btn-2{
   background: var(--white);
 }
-#adv-btn a {
+#btn-2 a {
   text-decoration: none;
   color: var(--white);
 }
-#hero-btn {
+#btn-1 {
   background: inherit;
   border: 1px solid var(--white);
   padding: 12px;
 }
-#hero-btn a {
+#btn-1 a {
   text-decoration: none;
   color: var(--color5);
 }
@@ -106,25 +106,25 @@ h2 {
 }
 
 /* SECTION  */
-section.spider-image {
+section.spider-section {
   background: var(--red);
   color: #ffffff;
   padding: 20px;
 }
-section.spider-image h3 {
+section.spider-section h3 {
   font-size: 20px;
 }
-#p-cine {
-  inline-size: 480px;
+#para1{
+  inline-size: 492.5px;
 }
 
 /* spider */
-.spider-image{
+.spider-section{
   width:100%;
   height: auto;
  
 }
-.spider-item{
+.spider-block{
   display: flex;
   flex-wrap: wrap;
   max-width: 1300px;
@@ -142,7 +142,7 @@ section.spider-image h3 {
 .text p {
   text-align: justify;
 }
-#btn-card {
+#button-card {
   color: var(--red);
   border: none;
   font-size: 14px;
@@ -153,7 +153,7 @@ section.spider-image h3 {
 }
 
 /* SECTION BLUE FORMULAIRE  */
-section.blue {
+section.section-blue {
   background: var(--blue);
   display: flex;
   flex-wrap: wrap;
@@ -161,13 +161,13 @@ section.blue {
   align-items: center;
   justify-content: space-around;
 }
-.formulaires {
+.form {
   color: var(--white);
   text-align: center;
   width: 500px;
 }
-.formulaires h2 {
-  font-family: 'lionel';
+.form h2 {
+  font-family: 'spidy';
 }
 .image {
   margin-right: 20%;
@@ -185,7 +185,7 @@ form input {
   padding: 5px 15px;
   margin-top: 15px;
 }
-#Envoyer {
+#send {
   background: inherit;
   border-radius: 20px;
   font-size: 14px;
@@ -198,27 +198,27 @@ form input {
 }
 
 /* SECTION RED  */
-section.red {
+section.section-red {
   color: var(--white);
   justify-content: space-between;
   background: var(--red);
   padding: 15px 0 0 19px;
   display: flex;
 }
-.inscription .titre h2 {
-  font-family: 'lionel';
+.sign-up .titre h2 {
+  font-family: 'spidy';
   font-size: 30px;
 }
-.image02 img {
+.img-spnoir img {
   width: 80vh;
 }
-.inscription {
+.sign-up {
   text-align: start;
 }
-section.red form {
+section.section-red form {
   margin: 0px;
 }
-section.red form input {
+section.section-red form input {
   background: inherit;
   color: var(--white);
   outline: none;
@@ -227,7 +227,7 @@ section.red form input {
   margin: 15px;
   width: 500px;
 }
-section.red form input::placeholder {
+section.section-red form input::placeholder {
   color: var(--white);
 }
 .check-box {
@@ -240,13 +240,13 @@ section.red form input::placeholder {
 .check-box span {
   border-bottom: 1px solid var(--white);
 }
-#cbox {
+#box {
   width: 100px;
   margin: 0;
   height: 20px;
 }
 
-.inscription button{
+.sign-up button{
   border-radius: 15px;
   border: none;
   padding: 15px 15px;
@@ -266,7 +266,7 @@ footer {
   color: var(-white);
   padding: 30px;
 }
-footer .list {
+footer .liste {
   text-align: center;
   align-items: center;
   flex-wrap: wrap;
@@ -279,7 +279,7 @@ footer .item {
 footer .none {
   display: none;
 }
-footer #lg {
+footer #langue {
   order: 2;
 }
 footer .container a {
@@ -320,29 +320,29 @@ footer .footer-icone img {
 body{
 				width:100%;
 }
-  section.blue {
+  section.section-blue {
     width:100%;
     height: 600px;
     justify-content: center;
   }
-  #Envoyer {
+  #send {
     margin: 20px auto;
   }
   .image img {
     position: relative;
   }
-  .formulaires {
+  .form{
     top: -400px;
     position: relative;
     z-index: 2;
   }
-  #btn-card {
+  #button-card {
     margin-top: 20px;
     margin: 0 auto;
   }
 }
 @media (max-width: 1024px) {
-  footer .list {
+  footer .liste {
     align-items: flex-start;
     display:flex;
     flex-wrap: nowrap;
@@ -366,29 +366,29 @@ body{
     display: flex;
     flex-direction: column;
   }
-  footer .logo {
+  footer .logos {
     margin-top: 150px;
     order: 2;
   }
 }
-@media (max-width:1024px) {
+@media screen and(max-width:1024px) {
   nav,
   header,
   section,
   footer {
     font-size: 1.2em;
   }
-  nav .liste{
+  nav .listes{
     display: none;
   }
   .cards-item .card {
     margin: 0 auto;
   }
   
-  section.red form input {
+  section.section-red form input {
     width: 300px;
   }
-  #cbox {
+  #box {
   width: 50px;
 }
 .check-box {
@@ -398,18 +398,18 @@ body{
 .check-box p {
   margin-left: 15px;
 }
-.image02{
+.img-spnoir{
   right: 0;
   top: 100px;
   position: relative;
 }
 
 }
-@media (max-width: 1024px) {
+@media screen and(max-width: 1024px) {
   nav,
   header,
-  section.red,
-  section.blue,
+  section.section-red,
+  section.section-blue,
   section.cards-image,
   footer {
     text-align: center;
@@ -437,17 +437,18 @@ body{
     width:100%;
     margin: 0 auto;
   }
-  footer .list {
-    align-items: flex-start;
-    justify-content: space-between;
+  footer .liste {
     flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
   }
-  footer #lg {
+  footer #langue {
     order: 1;
+    /* justify-content: center; */
   }
-  footer .logo {
-    margin: 0 auto;
+  footer .logos {
     padding-top: 50px;
+    margin: 0 auto;
   }
   footer .footer-icone {
     margin-top: 45px;

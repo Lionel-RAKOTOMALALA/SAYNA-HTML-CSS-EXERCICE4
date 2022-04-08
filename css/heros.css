@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 /* font  */
 @font-face {
-  font-family: 'lionel';
+  font-family: 'spidy';
   src: url(../far_from_homecoming/Updated.otf);
 }
 /* Selecteur UNIV  */
@@ -35,12 +35,12 @@ nav {
   padding: 15px 20px;
   background: var(--color3);
 }
-.logo {
+.logos {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.logo img {
+.logos img {
   margin: 0 10px;
 }
 .liste {
@@ -63,28 +63,28 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
 }
-header .titre {
+header .title {
   margin-top: 150px;
   padding-left: 20px;
 }
-.titre h1 {
-  font-family: 'lionel';
+.title h1 {
+  font-family: 'spidy';
   font-size: 80px;
 }
-.titre p {
+.title p {
   font-size: large;
 }
 /* SECTION  */
-section.valeurs {
+section.valeurs-a-def {
   background: #114c92;
   padding: 20px;
 }
-.valeurs .text-long {
+.valeurs-a-def .long-text {
   display: flex;
   flex-wrap: wrap;
 }
-.valeurs h2 {
-  font-family: 'lionel';
+.valeurs-a-def h2 {
+  font-family: 'spidy';
   font-size: 30px;
 }
 
@@ -103,7 +103,7 @@ section.valeurs {
 }
 
 /* SECTION SEPARATION   */
-section.spiderman {
+section.section-block {
   height: auto;
   min-height: 400px;
   background: url(/Assets/Illustration/img20.png);
@@ -111,12 +111,12 @@ section.spiderman {
   background-size: cover;
   background-repeat: no-repeat;
 }
-.spiderman .titre {
+.section-block .title {
   padding-top: 150px;
   padding-left: 50px;
 }
-.titre h2 {
-  font-family: 'lionel';
+.tilre h2 {
+  font-family: 'spidy';
   font-size: 30px;
 }
 
@@ -133,7 +133,7 @@ section.jamais-seul {
   height: auto;
 }
 .jamais-seul h2 {
-  font-family: 'lionel';
+  font-family: 'spidy';
   font-size: 30px;
   font-weight: 300;
 }
@@ -154,7 +154,7 @@ section.jamais-seul {
   overflow: hidden;
   margin: 25px;
 }
-.image2 {
+.images {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -162,7 +162,7 @@ section.jamais-seul {
   width: 600px;
   height: auto;
 }
-.image2 img {
+.images img {
   margin: 0 20px 20px 0;
 }
 #index {
@@ -195,10 +195,10 @@ section.heros .hero {
   padding: 20px;
 }
 .avangers h2 {
-  font-family: 'lionel';
+  font-family: 'spidy';
   margin-bottom: 15px;
 }
-.grid .red {
+.grid .block-red {
   display: flex;
   flex-wrap: wrap;
   justify-content: right;
@@ -209,19 +209,19 @@ section.heros .hero {
   text-align: justify;
   inline-size: 220px;
 }
-.image-1 {
+.image-avengers{
   flex-direction: column;
   display: flex;
 }
-.image-1 img {
+.image-avengers img {
   margin: 0 65px 10px 0;
 }
-.image-2 {
+.image-block-avengers {
   flex-wrap: wrap;
   justify-content: right;
   display: flex;
 }
-.image-2 img {
+.image-block-avengers img {
   margin: 0 0 10px 10px;
 }
 
@@ -241,23 +241,23 @@ section.spidy {
   background-position: center;
   background-repeat: no-repeat;
 }
-.univers {
+.univers-block {
   width: 500px;
   background: rgb(17, 76, 146, 0.7);
   padding: 15px;
   margin: 0 60%;
   overflow: hidden;
 }
-.univers .titre {
+.univers-block .title {
   text-align: right;
 }
-.univers .text {
+.univers-block .text {
   text-align: justify;
   min-height: 500px;
   inline-size: 450px;
 }
-.univers .titre h2 {
-  font-family: 'lionel';
+.universblock .title h2 {
+  font-family: 'spidy';
   font-size: 30px;
 }
 /* FOOTER  */
@@ -271,7 +271,7 @@ footer {
   min-width: 500px;
   color: #ffffff;
 }
-footer .list {
+footer .liste {
   align-items: center;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -284,7 +284,7 @@ footer .item {
 footer .none {
   display: none;
 }
-footer #lg {
+footer #langue {
   order: 2;
 }
 footer .container a {
@@ -324,7 +324,7 @@ footer .footer-icone img {
   .heros {
     display: none;
   }
-  .red {
+  .block-red {
     min-width: none;
   }
 }
@@ -340,18 +340,18 @@ footer .footer-icone img {
   footer .liste-footer a {
     margin-left: 0px;
   }
-  footer .logo {
+  footer .logos {
     order: 3;
   }
   .right {
     order: 1;
   }
-  #Lg {
+  #langue{
     order: 2;
   }
 }
 @media (max-width: 850px) {
-  footer .list {
+  footer .liste {
     flex-wrap: nowrap;
     align-items: flex-start;
   }
@@ -374,7 +374,7 @@ footer .footer-icone img {
     text-align: start;
     order: 1;
   }
-  footer .logo {
+  footer .logos {
     order: 2;
     margin-top: 150px;
   }
@@ -394,8 +394,8 @@ footer .footer-icone img {
   nav,
   header,
   main,
-  section.valeurs,
-  section.spiderman,
+  section.valeurs-a-def,
+  section.section-block,
   section.jamais-seul,
   section.hero,
   footer {
@@ -410,15 +410,15 @@ footer .footer-icone img {
     left: 0px;
     margin-top: 15px;
   }
-  footer .list {
+  footer .liste {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
   }
-  footer #lg {
+  footer #langue {
     order: 1;
   }
-  footer .logo {
+  footer .logos {
     padding-top: 50px;
     margin: 0 auto;
   }
@@ -431,7 +431,7 @@ footer .footer-icone img {
   .image-none {
     display: flex;
   }
-  .jamais-seul .image2 {
+  .jamais-seul .images {
     display: none;
   }
   .jamais-seul .ligne .image img {

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 /* font  */
 @font-face {
-  font-family: 'lionel';
+  font-family: 'spidy';
   src: url(../far_from_homecoming/Updated.otf);
 }
 /* Selecteur UNIV  */
@@ -36,20 +36,20 @@ nav {
   padding: 15px 20px;
   background: var(--color1);
 }
-.logo {
+.logos {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.logo img {
+.logos img {
   margin: 0 10px;
 }
-.liste {
+.listes {
   display: flex;
   flex-wrap: wrap;
   list-style-type: none;
 }
-.liste a {
+.listes a {
   text-decoration: none;
   color: var(--color5);
   margin: 0 25px;
@@ -65,14 +65,14 @@ header {
   background-position: bottom;
   background-repeat: no-repeat;
 }
-header .titre {
+header .title {
     padding: 250px 0 0 30px;
 }
-.titre h1 {
-    font-family: 'lionel';
+.title h1 {
+    font-family: 'spidy';
     font-size: 80px;
 }
-.titre p {
+.title p {
     font-weight: 600;
     font-size: 20px;   
 }
@@ -162,7 +162,7 @@ footer .footer-icone img {
     text-align: start;
     order: 1;
   }
-  footer .logo {
+  footer .logos {
     order: 2;
     margin-top: 150px;
   }
@@ -173,7 +173,7 @@ footer .footer-icone img {
   footer {
     font-size: 1.2em;
   }
-  nav .liste {
+  nav .listes {
     display: none;
   }
   nav {
@@ -192,22 +192,22 @@ footer .footer-icone img {
     min-height: none;
     background-position: center;
   }
-  header .titre h1 {
+  header .title h1 {
     font-size: 50px;
   }
-  header .titre {
+  header .title {
     text-align: start;
     padding-left: 30px;
   }
-  footer .list {
+  footer .listes {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
   }
-  footer #lg {
+  footer #langue {
     order: 1;
   }
-  footer .logo {
+  footer .logos {
     padding-top: 50px;
     margin: 0 auto;
   }
